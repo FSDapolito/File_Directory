@@ -1,10 +1,5 @@
 /*
-   Scrivere un programma C che
-   rimuove un hard link da tutti i file regolari della directory corrente, 
-   ad eccezione dell’eseguibile stesso
-   e stampi il nome di ciascun file, 
-   la dimensione ed i permessi di lettura, 
-   scrittura ed esecuzione per il gruppo.
+   Remove an hard link from regular files in the current directory execpt executable file and print each file name, its size and group permissions
 */
 
 #include <dirent.h>
