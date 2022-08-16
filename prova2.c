@@ -1,9 +1,8 @@
 /*
-Scrivere un programma in C che esamini il contenuto della directory corrente,
-verificando per ogni file regolare se la sua estensione è .c.
-In questo caso, verificarne i permessi di scrittura per il gruppo
-e visualizzare sullo standard output il contenuto del secondo file di lunghezza minore.
+    In the current directory verify if each file is a regular file and its extension is .c .
+    In this case verify group permissions and print on stdout the second file with minor size
 */
+
 #include <dirent.h>
 #include <sys/types.h>
 #include <sys/stat.h>
